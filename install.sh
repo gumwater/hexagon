@@ -17,7 +17,7 @@ xdg-user-dirs-update
 sudo apt install -y i3-wm suckless-tools sxhkd polybar
 
 # XFCE4 Minimal
-sudo apt install -y xfce4 xfce4-goodies
+# sudo apt install -y xfce4 xfce4-goodies
 
 # Network File Tools/System Events
 sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager
