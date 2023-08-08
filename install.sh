@@ -85,6 +85,9 @@ sudo systemctl enable lightdm
 # End of script for default config
 #
 
+# cp new /usr/share/X11/xorg.conf.d/40-libinput.conf from repository to /usr/share/X11/xorg.conf.d/ for trackpad tap setting
+sudo cp ./config/40-libinput.conf /usr/share/X11/xorg.conf.d/
+
 ## These two scripts will install nerdfonts and copy my configuration files into the ~/.config directory
 ## Configuration uses 
 
